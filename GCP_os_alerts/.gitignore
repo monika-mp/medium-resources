@@ -1,0 +1,19 @@
+*.key
+*sharedsecret.txt
+.terraform
+terraform.state
+.terraform.lock.hcl
+terraform.state
+terraform.tfstate
+*.json
+key.json
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+crash.log
+override.tf.json
+*_override.tf
+*_override.tf.json
